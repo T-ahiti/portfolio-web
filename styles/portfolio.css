@@ -1,7 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* shared styles */
+.heading-text {
+    font-family: 'Playfair Display', serif;
+    color: #3A2D2A;
+}
+
 .paragraph-text {
     font-family: 'Inter', sans-serif;
 }
 
-.heading-text {
-    font-family: 'Playfair Display', serif;
+/* main styles */
+
+/* header section */
+header{
+    background-color: #e7b7b24f;
+    padding-top: 50px;
+}
+
+nav{
+    width: 71%;
+    max-width: 1400px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h2{
+    font-size: 2.8rem;
+    font-weight: 900;
+}
+
+nav .menu{
+    display: flex;
+    align-items: center;
+    gap: 3.1rem;
+    list-style: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    color:#3F3330;
+    font-size: 1.1rem;
+    font-weight: 500;
 }
