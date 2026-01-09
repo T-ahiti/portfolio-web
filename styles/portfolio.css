@@ -8,6 +8,7 @@
 .heading-text {
     font-family: 'Playfair Display', serif;
     color: #3A2D2A;
+    font-size: 2.1875rem;
 }
 
 .paragraph-text {
@@ -122,5 +123,41 @@ nav .menu{
     width: 18.75rem;
     /* if we use the verticle align middle, it will make sure the image is aligned properly with the parent's bottom */
     vertical-align: middle;
+}
+
+
+/* main section started */
+
+/* about section */
+#about{
+    padding-top: 8.125rem;
+}
+
+.about-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0px auto;
+    text-align: center;
+    background-color: #e7b7b24f;
+    padding: 8.1875rem 9.8125rem;
+}
+
+.about-cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-heading p{
+    line-height: 1.875rem;
+    margin-bottom: 1.875rem;
+}
+
+.about-paratext{
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
+
+.about-head{
+    font-size: 1.25rem;
 
 }
