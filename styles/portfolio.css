@@ -13,6 +13,7 @@
 .paragraph-text {
     font-family: 'Inter', sans-serif;
     color: #3F3330;
+    font-size: 1.125rem;
 }
 
 .primary-button{
@@ -31,17 +32,38 @@
     color: #3A2D2A;
 }
 
+.secondary-button{
+     background-color: transparent;
+     color: #E7B6B2;
+     border: 2px solid #E7B6B2;
+     padding: 8px 26px;
+     font-size: 1rem;
+     cursor: pointer;
+     border-radius: 5px;
+     font-weight: 600;
+}
+
+.secondary-button:hover{
+    /* background-color: #E7B6B2; */
+    color: #3A2D2A;;
+    border: 2px solid #3A2D2A;;
+}   
+
 /* main styles */
 
 /* header section */
 header{
     background-color: #e7b7b24f;
+    background-image: url('../images/developer.png') , url('../images/header_back.png');
+    background-position: top left, bottom right;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain , 35rem auto;
     padding-top: 50px;
 }
 
 nav{
     width: 71%;
-    max-width: 1400px;
+    max-width: 1140px;
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
@@ -63,6 +85,42 @@ nav .menu{
 .menu li a{
     text-decoration: none;
     color:#3F3330;
-    font-size: 1.1rem;
+    font-size: 1.25rem;
     font-weight: 500;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: black 1px solid; */
+    margin: 2.9375rem 2.375rem 0rem 14.375rem;
+}
+
+.banner-text{
+    max-width: 36.5625rem;   
+}
+
+.banner-text h1{
+    font-size: 4.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.banner-text h2{
+    font-size: 2.8125rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.banner-text p{
+    margin-bottom: 1.875rem;
+    line-height: 1.875rem;
+}
+.banner-image{
+    max-width: 36.5625rem;
+    width: 18.75rem;
+    /* if we use the verticle align middle, it will make sure the image is aligned properly with the parent's bottom */
+    vertical-align: middle;
+
 }
