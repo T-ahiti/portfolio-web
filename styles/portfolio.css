@@ -139,7 +139,7 @@ nav .menu{
     margin: 0px auto;
     text-align: center;
     background-color: #e7b7b24f;
-    padding: 8.1875rem 9.8125rem;
+    padding: 8rem 7.9rem;
 }
 
 .about-cards{
@@ -147,9 +147,13 @@ nav .menu{
     justify-content: space-around;
 }
 
+.section-heading{
+    text-align: center;
+}
 .section-heading p{
     line-height: 1.875rem;
     margin-bottom: 1.875rem;
+    text-align: center;
 }
 
 .about-paratext{
@@ -159,5 +163,5 @@ nav .menu{
 
 .about-head{
     font-size: 1.25rem;
-
+    font-family: 'Inter', sans-serif;
 }
