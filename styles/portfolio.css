@@ -140,6 +140,7 @@ nav .menu{
     text-align: center;
     background-color: #e7b7b24f;
     padding: 8rem 7.9rem;
+    border-radius: 5px;
 }
 
 .about-cards{
@@ -164,4 +165,41 @@ nav .menu{
 .about-head{
     font-size: 1.25rem;
     font-family: 'Inter', sans-serif;
+}
+
+#skills{
+    padding-top: 8.125rem;
+}
+
+.skills-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+.skill-box{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.skill-card{
+    padding: 1.5rem 1rem 1.5rem 1rem;
+    max-width: 16.6875rem;
+    border-radius: 5px;
+    box-shadow: 0rem 0.375rem 3.125rem 0rem rgba(231, 183, 178, 0.463);
+}
+
+.skill-card img{
+    width: 2.75rem; 
+    margin-bottom: 1.875rem;
+}
+
+.skill-card h3{
+    font-size: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.skill-card p{
+    font-size: 1rem;
+    line-height: 1.75rem;
 }
